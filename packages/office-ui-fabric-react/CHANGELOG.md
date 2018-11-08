@@ -1,6 +1,17 @@
 # Change Log - office-ui-fabric-react
 
-This log was last generated on Wed, 07 Nov 2018 13:31:01 GMT and should not be manually modified.
+This log was last generated on Thu, 08 Nov 2018 00:14:49 GMT and should not be manually modified.
+
+## 6.100.1
+Thu, 08 Nov 2018 00:14:49 GMT
+
+### Patches
+
+- Fixes: 6962 - Label a11y pass
+- fixes #6992: pressing enter in textinput datepicker should change the selection
+- Fixes #7016: adding a documentation about having a minimum 340px width
+- Set aria-modal=true on Modal dialog
+- Add aria labels title & description to Modal example.
 
 ## 6.100.0
 Wed, 07 Nov 2018 13:31:01 GMT
