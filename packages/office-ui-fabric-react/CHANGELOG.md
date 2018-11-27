@@ -1,6 +1,22 @@
 # Change Log - office-ui-fabric-react
 
-This log was last generated on Thu, 22 Nov 2018 13:36:17 GMT and should not be manually modified.
+This log was last generated on Tue, 27 Nov 2018 13:36:33 GMT and should not be manually modified.
+
+## 6.107.0
+Tue, 27 Nov 2018 13:36:33 GMT
+
+### Minor changes
+
+- DatePicker: Added calendarAs to support custom calendars
+- DatePicker: Support custom callout props, and therefore layer props
+- Tooltip: do not allow more than one tooltip at once
+- add SASS var for accent theme slot
+
+### Patches
+
+- BasePicker: Will now respect `className` property of `inputProps`, if one was provided.
+- Correct hover and highlight states for Calendar (DateRangeType.Week)
+- DetailsList: fixing focus rectangle color from themePrimary to neutralSecondary.
 
 ## 6.106.3
 Thu, 22 Nov 2018 13:36:17 GMT
