@@ -1,6 +1,13 @@
 # Change Log - @uifabric/file-type-icons
 
-This log was last generated on Mon, 15 Oct 2018 12:29:12 GMT and should not be manually modified.
+This log was last generated on Wed, 28 Nov 2018 13:35:52 GMT and should not be manually modified.
+
+## 6.3.0
+Wed, 28 Nov 2018 13:35:52 GMT
+
+### Minor changes
+
+- Updated filetype icon mappings to include missing files (figma, powerpoint slide, etc) and entries for new supported non-file items (sp news, sway)
 
 ## 6.2.0
 Mon, 15 Oct 2018 12:29:12 GMT

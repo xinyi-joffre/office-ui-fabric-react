@@ -1,6 +1,28 @@
 # Change Log - office-ui-fabric-react
 
-This log was last generated on Thu, 22 Nov 2018 13:36:17 GMT and should not be manually modified.
+This log was last generated on Wed, 28 Nov 2018 13:35:52 GMT and should not be manually modified.
+
+## 6.107.0
+Wed, 28 Nov 2018 13:35:52 GMT
+
+### Minor changes
+
+- HoverCard: A new callback called onCardExpand has been added that occurs after the expanded hover card is rendered
+- DatePicker: Added calendarAs to support custom calendars
+- DatePicker: Support custom callout props, and therefore layer props
+- TeachingBubble: Convert Callout styles to use subComponentStyles.
+- Tooltip: do not allow more than one tooltip at once
+- add SASS var for accent theme slot
+- semantic slot value updates
+
+### Patches
+
+- Ensures nav links are announced once
+- BasePicker: Will now respect `className` property of `inputProps`, if one was provided.
+- Dropdown: Add documentation (where there were none previously) about the responsiveMode prop.
+- Slider: Fixed IE 11 compatibility issue by changing `Number.parseFloat()` method call to `parseFloat()` method instead.
+- Correct hover and highlight states for Calendar (DateRangeType.Week)
+- DetailsList: fixing focus rectangle color from themePrimary to neutralSecondary.
 
 ## 6.106.3
 Thu, 22 Nov 2018 13:36:17 GMT
